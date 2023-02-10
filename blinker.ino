@@ -17,7 +17,13 @@ unsigned long previous_red_LED_time = 0;
 bool red_LED_state = LOW;
 
 void setup()
-{}
+{
+  pinMode(button_pin, INPUT);
+  pinMode(green_LED, OUTPUT);
+  pinMode(red_LED, OUTPUT);
+  digitalWrite(reset_pin, LOW);
+  digitalWrite(green_LED, LOW);
+}
 
 void loop()
 {}
