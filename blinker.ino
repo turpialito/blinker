@@ -27,3 +27,13 @@ void setup()
 
 void loop()
 {}
+
+void turn_green_LED_on()
+{
+  digitalWrite(green_LED, HIGH);
+}
+
+void turn_green_LED_off()
+{
+  digitalWrite(green_LED, LOW);
+}
