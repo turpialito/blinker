@@ -37,3 +37,13 @@ void turn_green_LED_off()
 {
   digitalWrite(green_LED, LOW);
 }
+
+void turn_red_LED_on()
+{
+  digitalWrite(red_LED, HIGH);
+}
+
+void turn_red_LED_off()
+{
+  digitalWrite(red_LED, LOW);
+}
